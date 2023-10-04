@@ -7,11 +7,7 @@ export default function MainSlider() {
         <section className="slider-section">
             <h2 className="hidden">title</h2>
             <div className="main-slider">
-                <div
-                id="main-slider-carousel"
-                className="carousel slide"
-                data-ride="carousel"
-                >
+                <div id="main-slider-carousel" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner" role="listbox">
                     <div className="item active">
                     <div className="slider-one" />
@@ -74,12 +70,7 @@ export default function MainSlider() {
                     </div>
                     </div>
                 </div>
-                <a
-                    className="left carousel-control"
-                    href="#main-slider-carousel"
-                    role="button"
-                    data-slide="prev"
-                >
+                <a className="left carousel-control" href="#main-slider-carousel" role="button" data-slide="prev">
                     <i className="fa fa-angle-left" aria-hidden="true" />
                 </a>
                 <a
