@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from "next/script"
 import Header from './components/Header'
 import Footer from './components/Footer'
+import OffcanvasMenu from './components/OffcanvasMenu'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"  />
         <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -32,7 +33,8 @@ export default function RootLayout({ children }) {
         <Header/>
         {children}
         <Footer/>
-        
+        <OffcanvasMenu/>
+         
         <Script type="text/javascript" src="js/jquery.js"/>
         <Script type="text/javascript" src="bootstrap/js/bootstrap.min.js"/>
         <Script type="text/javascript" src="js/jquery.inview.min.js"/>

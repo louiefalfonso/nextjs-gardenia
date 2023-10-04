@@ -856,7 +856,7 @@ textarea, select {
         .header-section .navbar .navbar-collapse .navbar-nav li {
           margin-right: 25px; } }
       .header-section .navbar .navbar-collapse .navbar-nav li:nth-child(7) {
-        margin: 0 15px 0 50px; }
+        margin: 0 15px 0 0; }
       .header-section .navbar .navbar-collapse .navbar-nav li:last-child {
         margin-right: 0; }
       .header-section .navbar .navbar-collapse .navbar-nav li a, .header-section .navbar .navbar-collapse .navbar-nav li .search-view, .header-section .navbar .navbar-collapse .navbar-nav li .cart-icon i {
@@ -1246,7 +1246,7 @@ textarea, select {
       .slider-section .main-slider #main-slider-carousel .carousel-inner .slider-one {
         height: 430px; } }
   .slider-section .main-slider #main-slider-carousel .carousel-inner .slider-two {
-    background: url(../images/slider/slider-2.jpg) no-repeat center center;
+    background: url(../images/slider/slider-2.jpeg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 650px; }
@@ -1260,7 +1260,7 @@ textarea, select {
       .slider-section .main-slider #main-slider-carousel .carousel-inner .slider-two {
         height: 430px; } }
   .slider-section .main-slider #main-slider-carousel .carousel-inner .slider-three {
-    background: url(../images/slider/slider-3.jpg) no-repeat center center;
+    background: url(../images/slider/slider-3.jpeg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 650px; }
