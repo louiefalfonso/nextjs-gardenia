@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-css-tags */
 import { Inter } from 'next/font/google'
 import Script from "next/script"
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,8 +29,10 @@ export default function RootLayout({ children }) {
       </head>
       
       <body className="homePageOne">
+        <Header/>
         {children}
-
+        <Footer/>
+        
         <Script type="text/javascript" src="js/jquery.js"/>
         <Script type="text/javascript" src="bootstrap/js/bootstrap.min.js"/>
         <Script type="text/javascript" src="js/jquery.inview.min.js"/>
