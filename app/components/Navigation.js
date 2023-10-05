@@ -17,9 +17,9 @@ export default function Navigation() {
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/about">About</Link></li>
                         <li><Link href="/services">Services</Link></li>
-                        <li><a href="#">Projects</a></li> 
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Team</a></li>
+                        <li><Link href="/projects">Projects</Link></li> 
+                        <li><Link href="/pricing">Pricings</Link></li>
+                        <li><Link href="/team">Team</Link></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
