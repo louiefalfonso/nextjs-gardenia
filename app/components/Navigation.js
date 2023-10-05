@@ -20,8 +20,8 @@ export default function Navigation() {
                         <li><Link href="/projects">Projects</Link></li> 
                         <li><Link href="/pricing">Pricings</Link></li>
                         <li><Link href="/team">Team</Link></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><Link href="/faq">FAQ</Link></li>
+                        <li><Link href="/contactus">Contact Us</Link></li>
                     </ul>
                 </div>
             </div>

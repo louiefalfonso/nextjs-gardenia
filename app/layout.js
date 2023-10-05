@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
         <Script type="text/javascript" src="owl-carrosel/owl.carousel.min.js"/>
         <Script type="text/javascript" src="js/slider.js"/>
         <Script type="text/javascript" src="js/script.js"/>
+        
       </body>
     </html>
   )
