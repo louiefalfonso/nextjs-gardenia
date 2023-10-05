@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image';
 
 export default function TopHeader() {
   return (
@@ -11,10 +13,7 @@ export default function TopHeader() {
                         <div className="col-sm-6">
                             <div className="header-left-bar">
                             <ul className="contact-wrapper">
-                                <li>
-                                <i className="fa fa-envelope" aria-hidden="true" />{" "}
-                                support@gardenia.com
-                                </li>
+                                <li><i className="fa fa-envelope" aria-hidden="true" />{" "}support@gardenia.com</li>
                             </ul>
                             </div>
                         </div>
@@ -22,9 +21,7 @@ export default function TopHeader() {
                             <div className="header-right-bar text-right">
                             <ul className="social-icon">
                                 <li>
-                                <a href="#">
-                                    <i className="fa fa-facebook" aria-hidden="true" />
-                                </a>
+                                <a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a>
                                 </li>
                                 <li>
                                 <a href="#">
@@ -50,21 +47,22 @@ export default function TopHeader() {
             <div className="middle-bar hidden-sm hidden-xs">
                 <div className="container">
                     <div className="navbar-header">
-                    <a className="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="image" />
-                    </a>
+                    <Link className="navbar-brand" href="/">
+                        <Image src="/images/logo.png" alt="Logo Image" width={214} height={31} />
+                    </Link>
                     </div>
                     <div className="schedule pull-right">
                     <ul>
                         <li>
-                        <img src="images/clock.png" alt="" />
+                         <Image src="/images/clock.png" alt="" width={51} height={51} />   
+                        
                         <div className="content">
                             <span className="date">Mon - Fri</span>
                             <h5>09 am - 08 pm</h5>
                         </div>
                         </li>
                         <li>
-                        <img src="images/phone.png" alt="" />
+                            <Image src="/images/phone.png" alt="" width={53} height={53} />  
                         <div className="content">
                             <span className="date">Call Us</span>
                             <h5>+1-(547)-257</h5>

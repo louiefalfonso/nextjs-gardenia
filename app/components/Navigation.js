@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 export default function Navigation() {
   return (
@@ -9,9 +10,9 @@ export default function Navigation() {
             <div className="container">
                 <div className="collapse navbar-collapse">
                     <div className="navbar-header">
-                        <a className="navbar-brand" href="index.html">
-                            <img src="images/logo.png" alt="image" />
-                        </a>
+                        <Link className="navbar-brand" href="/">
+                            <Image src="/images/logo.png" alt="Logo Image" width={214} height={31} />
+                        </Link>
                     </div>
                     <ul className="nav navbar-nav nav-one">
                         <li><Link href="/">Home</Link></li>
@@ -27,9 +28,9 @@ export default function Navigation() {
             </div>
         </nav>
         <div className="navbar-header inline-block visible-sm visible-xs">
-            <a className="navbar-brand" href="index.html">
-            <img src="images/logo-m.png" alt="image" />
-            </a>
+            <Link className="navbar-brand" href="/">
+                <Image src="/images/logo-m.png" alt="Logo Image" width={150} height={22} />
+            </Link>
         </div>
     </>
   )
