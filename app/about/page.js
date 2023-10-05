@@ -3,6 +3,12 @@ import React from 'react'
 import Link from 'next/link'
 import CountingSection from '../components/CountingSection'
 import ServiceSection from '../components/ServiceSection'
+import ProjectSection from '../components/ProjectSection'
+import TeamSection from '../components/TeamSection'
+import BorderBreak from '../components/BorderBreak'
+import WorkerSection from '../components/WorkerSection'
+import DoubleSection from '../components/DoubleSection'
+import TestimonialSection from '../components/TestimonialSection'
 
 export default function page() {
   return (
@@ -11,7 +17,7 @@ export default function page() {
             <div className="container">
                 <h2 className="title">About Us</h2>
                 <span className="sub-title">
-                <Link href="/">Home</Link> / <span className="text-color">About Us</span>
+                <Link href="/">Home</Link> / <span>About Us</span>
                 </span>
             </div>
         </section>
@@ -58,6 +64,11 @@ export default function page() {
         </section>
         <CountingSection/>
         <ServiceSection/>
+        <ProjectSection/>
+        <TeamSection/>
+        <BorderBreak/>
+        <WorkerSection/>
+        <TestimonialSection/>
     </div>
   )
 }
