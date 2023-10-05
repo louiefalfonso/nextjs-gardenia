@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
 
 export default function Navigation() {
   return (
@@ -13,8 +14,8 @@ export default function Navigation() {
                         </a>
                     </div>
                     <ul className="nav navbar-nav nav-one">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/about">About</Link></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Projects</a></li> 
                         <li><a href="#">Pricing</a></li>
