@@ -33,11 +33,6 @@ export default function TopHeader() {
                                 </li>
                                 <li>
                                 <a href="#">
-                                    <i className="fa fa-google-plus" aria-hidden="true" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
                                     <i className="fa fa-linkedin" aria-hidden="true" />
                                 </a>
                                 </li>

@@ -16,7 +16,7 @@ export default function Navigation() {
                     <ul className="nav navbar-nav nav-one">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/about">About</Link></li>
-                        <li><a href="#">Services</a></li>
+                        <li><Link href="/services">Services</Link></li>
                         <li><a href="#">Projects</a></li> 
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Team</a></li>
