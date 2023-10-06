@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -30,35 +31,28 @@ export default function Footer() {
                         </button>
                         </form>
                         <ul className="social-icon">
-                        <li>
-                            <a href="#">
-                            <i className="fa fa-facebook" aria-hidden="true" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            <i className="fa fa-twitter" aria-hidden="true" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            <i className="fa fa-linkedin" aria-hidden="true" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            <i className="fa fa-instagram" aria-hidden="true" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            <i className="fa fa-rss" aria-hidden="true" />
-                            </a>
-                        </li>
-                        </ul>{" "}
-                        {/* social-icon */}
-                    </div>{" "}
-                    {/* footer-wrapper */}
+                            <li>
+                                <Link href="https://www.facebook.com/">
+                                    <i className="fa fa-facebook" aria-hidden="true" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://twitter.com/">
+                                    <i className="fa fa-twitter" aria-hidden="true" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://www.linkedin.com/">
+                                    <i className="fa fa-linkedin" aria-hidden="true" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://www.instagram.com/">
+                                    <i className="fa fa-instagram" aria-hidden="true" />
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                     <div className="footer-wrapper">
@@ -69,53 +63,24 @@ export default function Footer() {
                         and doing it in a way you actually enjoy the thought of being lazy
                         and paying somebody else.
                         </p>
-                        <a href="#" className="link">
-                        Join Now
-                        </a>
-                    </div>{" "}
-                    {/* footer-wrapper */}
+                    </div>
                     </div>
                     <div className="col-md-4 col-md-offset-0 col-sm-5 col-sm-offset-1">
-                    <div className="footer-wrapper">
-                        <h3>Navigation</h3>
-                        <ul className="wrapper-option">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Service</a>
-                        </li>
-                        <li>
-                            <a href="#">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                        </ul>{" "}
-                        {/* wrapper-option */}
-                        <ul className="wrapper-option">
-                        <li>
-                            <a href="#">Recent News</a>
-                        </li>
-                        <li>
-                            <a href="#">Testimonials</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallery two</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact Us</a>
-                        </li>
-                        </ul>{" "}
-                        {/* wrapper-option */}
-                    </div>{" "}
-                    {/* footer-wrapper */}
+                        <div className="footer-wrapper">
+                            <h3>Navigation</h3>
+                            <ul className="wrapper-option">
+                                <li><Link href="/">Home</Link></li>
+                                <li><Link href="/about">About</Link></li>
+                                <li><Link href="/services">Services</Link></li>
+                                <li><Link href="/projects">Projects</Link></li> 
+                            </ul>
+                            <ul className="wrapper-option">
+                                <li><Link href="/pricing">Pricings</Link></li>
+                                <li><Link href="/team">Team</Link></li>
+                                <li><Link href="/faq">FAQ</Link></li>
+                                <li><Link href="/contactus">Contact Us</Link></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -137,7 +102,7 @@ export default function Footer() {
                         </li>
                         <li>
                             <i className="fa fa-phone" aria-hidden="true" />
-                            +1-(547)-257
+                            +44 123-456-7890
                         </li>
                         </ul>
                     </div>{" "}

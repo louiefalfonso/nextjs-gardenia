@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function OffcanvasMenu() {
   return (
@@ -9,14 +10,14 @@ export default function OffcanvasMenu() {
                 <i className="fa fa-times" aria-hidden="true" />
             </span>
             <ul className="menu-wrapper">
-                <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Projects</a></li> 
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/about">About</Link></li>
+                <li><Link href="/services">Services</Link></li>
+                <li><Link href="/projects">Projects</Link></li> 
+                <li><Link href="/pricing">Pricings</Link></li>
+                <li><Link href="/team">Team</Link></li>
+                <li><Link href="/faq">FAQ</Link></li>
+                <li><Link href="/contactus">Contact Us</Link></li>
              </ul>   
         </div>
     </>

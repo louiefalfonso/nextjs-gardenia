@@ -20,14 +20,8 @@ export default function page() {
                         <div className="left-bar">
                         <div className="wrapper-menu">
                             <ul>
-                            <li>
-                                <a href="service.html">All Services</a>
-                            </li>
-                            <li>
-                                <a href="service-one.html" className="active">
-                                Vegetable Gardening
-                                </a>
-                            </li>
+                            <li><a href="#">All Services</a></li>
+                            <li><a href="#" className="active">Vegetable Gardening</a></li>
                             <li>
                                 <a href="service-two.html">Lawn Watering</a>
                             </li>
@@ -48,9 +42,7 @@ export default function page() {
                         <div className="voucher">
                             <img src="images/voucher-icon.png" alt="" />
                             <h5>Lawn Watering</h5>
-                            <p>
-                            <a href="#">Click here to download theService Brochure </a>
-                            </p>
+                            <p><a href="#">Click here to download theService Brochure </a></p>
                         </div>
                         </div>
                     </div>
@@ -94,8 +86,7 @@ export default function page() {
                                     aute irure dolor in reprehenderit
                                 </li>
                                 </ul>
-                            </div>{" "}
-                            {/* middle-content */}
+                            </div>
                             </div>
                         </div>
                         <p>

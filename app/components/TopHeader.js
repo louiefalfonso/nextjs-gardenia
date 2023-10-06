@@ -24,23 +24,25 @@ export default function TopHeader() {
                             <div className="header-right-bar text-right">
                             <ul className="social-icon">
                                 <li>
-                                <a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a>
-                                </li>
-                                <li>
-                                <a href="#">
+                                <Link href="https://www.facebook.com/">
+                                    <i className="fa fa-facebook" aria-hidden="true" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://twitter.com/">
                                     <i className="fa fa-twitter" aria-hidden="true" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://www.linkedin.com/">
                                     <i className="fa fa-linkedin" aria-hidden="true" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#">
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="https://www.instagram.com/">
                                     <i className="fa fa-instagram" aria-hidden="true" />
-                                </a>
-                                </li>
+                                </Link>
+                            </li>
                             </ul>
                             </div>
                         </div>
