@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import OffcanvasMenu from './components/OffcanvasMenu'
 
 import Head from 'next/head'
+import MoveTop from './components/MoveTop'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -35,7 +36,6 @@ export default function RootLayout({ children }) {
         {children}
         <Footer/>
         <OffcanvasMenu/>
-         
         <Script type="text/javascript" src="js/jquery.js"/>
         <Script type="text/javascript" src="bootstrap/js/bootstrap.min.js"/>
         <Script type="text/javascript" src="js/jquery.inview.min.js"/>
