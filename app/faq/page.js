@@ -108,7 +108,6 @@ export default function page() {
                         </div>
                         </div>
                     </div>
-                    {/* /.panel-default */}
                     <div className="panel panel-default">
                         <div className="panel-heading">
                         <h4 className="panel-title">
@@ -134,7 +133,6 @@ export default function page() {
                         </div>
                         </div>
                     </div>
-                    {/* /.panel-default */}
                     <div className="panel panel-default">
                         <div className="panel-heading">
                         <h4 className="panel-title">

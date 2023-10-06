@@ -50,16 +50,14 @@ export default function page() {
                         </span>
                         <h5>Payet Clause</h5>
                         <span className="position">Ceo, Gardenia</span>
-                        </div>{" "}
-                        {/* content-wrapper */}
+                        </div>
                     </div>
                     <div className="col-md-5 hidden-sm hidden-xs">
                         <div className="caption-wrapper wow slideInRight">
                         <span className="caption">
                             <img src="images/men.png" alt="" />
                         </span>
-                        </div>{" "}
-                        {/* caption-wrapper */}
+                        </div>
                     </div>
                 </div>
             </div>
