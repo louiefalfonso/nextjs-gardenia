@@ -10,45 +10,45 @@ export default function MainSlider() {
                 <div id="main-slider-carousel" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner" role="listbox">
                     <div className="item active">
-                    <div className="slider-one" />
-                    <div className="content text-center">
-                        <div className="large-text" data-animation="animated fadeInDown">
-                        We provide most authentic <br /> landscaping service
+                        <div className="slider-one" />
+                            <div className="content text-center">
+                                <div className="large-text" data-animation="animated fadeInDown">
+                                We provide most authentic <br /> landscaping service
+                                </div>
+                                <div className="guard">
+                                <p className="small-text" data-animation="animated fadeInDown">
+                                    If the unpredictable British weather isn't enough to counter
+                                    your <br /> desire to work outside, gardening is a great
+                                    industry to get <br /> involved in.
+                                </p>
+                                </div>
+                                <div className="link-button" data-animation="animated fadeInUp">
+                                <a href="#" className="btn btn-primary">
+                                    Our Services
+                                </a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="guard">
-                        <p className="small-text" data-animation="animated fadeInDown">
-                            If the unpredictable British weather isn't enough to counter
-                            your <br /> desire to work outside, gardening is a great
-                            industry to get <br /> involved in.
-                        </p>
-                        </div>
-                        <div className="link-button" data-animation="animated fadeInUp">
-                        <a href="#" className="btn btn-primary">
-                            Our Services
-                        </a>
-                        </div>
-                    </div>
-                    </div>
                     <div className="item">
-                    <div className="slider-two" />
-                    <div className="content text-right">
-                        <div className="large-text" data-animation="animated fadeInDown">
-                        We provide most authentic <br /> landscaping service
+                        <div className="slider-two" />
+                        <div className="content text-right">
+                            <div className="large-text" data-animation="animated fadeInDown">
+                            We provide most authentic <br /> landscaping service
+                            </div>
+                            <div className="guard">
+                            <p className="small-text" data-animation="animated fadeInLeft">
+                                If the unpredictable British weather isn't enough to counter
+                                your <br /> desire to work outside, gardening is a great
+                                industry to get <br /> involved in.
+                            </p>
+                            </div>
+                            <div className="link-button" data-animation="animated fadeInUp">
+                            <a href="#" className="btn btn-primary">
+                                Our Services
+                            </a>
+                            </div>
                         </div>
-                        <div className="guard">
-                        <p className="small-text" data-animation="animated fadeInLeft">
-                            If the unpredictable British weather isn't enough to counter
-                            your <br /> desire to work outside, gardening is a great
-                            industry to get <br /> involved in.
-                        </p>
-                        </div>
-                        <div className="link-button" data-animation="animated fadeInUp">
-                        <a href="#" className="btn btn-primary">
-                            Our Services
-                        </a>
-                        </div>
-                    </div>
-                    </div>
+                    </div>      
                     <div className="item">
                     <div className="slider-three" />
                     <div className="content text-left">

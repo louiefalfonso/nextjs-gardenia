@@ -2,6 +2,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
+import mainlogo from 'public/images/logo.png'
+import clock from 'public/images/clock.png'
+import phone from 'public/images/phone.png'
 
 export default function TopHeader() {
   return (
@@ -48,25 +51,24 @@ export default function TopHeader() {
                 <div className="container">
                     <div className="navbar-header">
                     <Link className="navbar-brand" href="/">
-                        <Image src="/images/logo.png" alt="Logo Image" width={214} height={31} />
+                        <Image src={mainlogo} alt="Logo Image" />
                     </Link>
                     </div>
                     <div className="schedule pull-right">
                     <ul>
                         <li>
-                         <Image src="/images/clock.png" alt="" width={51} height={51} />   
-                        
-                        <div className="content">
-                            <span className="date">Mon - Fri</span>
-                            <h5>09 am - 08 pm</h5>
-                        </div>
+                            <Image src={clock} alt="" />  
+                            <div className="content">
+                                <span className="date">Mon - Fri</span>
+                                <h5>09 am - 08 pm</h5>
+                            </div>
                         </li>
                         <li>
-                            <Image src="/images/phone.png" alt="" width={53} height={53} />  
-                        <div className="content">
-                            <span className="date">Call Us</span>
-                            <h5>+1-(547)-257</h5>
-                        </div>
+                            <Image src={phone} alt="" />  
+                            <div className="content">
+                                <span className="date">Call Us</span>
+                                <h5>+1-(547)-257</h5>
+                            </div>
                         </li>
                     </ul>
                     </div>

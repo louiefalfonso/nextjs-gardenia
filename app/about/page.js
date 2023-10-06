@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
+
 import CountingSection from '../components/CountingSection'
 import ServiceSection from '../components/ServiceSection'
 import ProjectSection from '../components/ProjectSection'
@@ -8,6 +10,8 @@ import TeamSection from '../components/TeamSection'
 import BorderBreak from '../components/BorderBreak'
 import WorkerSection from '../components/WorkerSection'
 import TestimonialSection from '../components/TestimonialSection'
+
+import aboutimg from 'public/images/men.png'
 
 export default function page() {
   return (
@@ -26,8 +30,7 @@ export default function page() {
                     <div className="col-sm-12 visible-sm visible-xs">
                         <div className="caption text-center">
                         <img src="images/men.png" alt="" />
-                        </div>{" "}
-                        {/* caption-wrapper */}
+                        </div>
                     </div>
                     <div className="col-md-7">
                         <div className="content-wrapper">

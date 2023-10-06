@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import OffcanvasMenu from './components/OffcanvasMenu'
 
+import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

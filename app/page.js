@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 import BlogSection from "./components/BlogSection";
 import BorderBreak from "./components/BorderBreak";
 import CountingSection from "./components/CountingSection";
@@ -10,9 +11,11 @@ import TeamSection from "./components/TeamSection";
 import TestimonialSection from "./components/TestimonialSection";
 import WorkerSection from "./components/WorkerSection";
 
+
+
 export default function Home() {
   return (
-    <main>
+    <>
       <MainSlider/>
       <ServiceSection/>
       <SignupSection/>
@@ -24,6 +27,6 @@ export default function Home() {
       <TestimonialSection/>
       <BlogSection/>
       <DoubleSection/>
-    </main>
+    </>
   )
 }
