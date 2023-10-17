@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="owl-carrosel/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="css/offcanvas-menu.css"/>
         <link rel="stylesheet" href="css/style.css"/>
+        
       </head>
       
       <body className="homePageOne">
